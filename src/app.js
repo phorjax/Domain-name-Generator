@@ -7,7 +7,7 @@ import "./assets/img/4geeks.ico";
 
 window.onload = function() {
   //write your code here
-  let DomainGen = () => {
+  let DomainGenerator = () => {
     var Noun = ["history", "art"];
     var Adjective = ["adore", "had"];
     var Pronoun = ["I", "she", "we"];
@@ -19,7 +19,7 @@ window.onload = function() {
         }
       }
     }
-    return;
+    return Pronoun + Adjective + Noun + ".com";
   };
-  document.querySelector("#DomainGen").innerHTML = DomainGen();
+  document.querySelector("#DomainGen").innerHTML = DomainGenerator();
 };
