@@ -10,4 +10,7 @@ window.onload = function() {
   var Noun = ["history", "away", "art"];
   var Adjective = ["agreeable", "adorable", "cloudy"];
   var Pronoun = ["I", "she", "we"];
+  for (let i = 0; i < array.length; i++) {
+    const element = array[i];
+  }
 };
