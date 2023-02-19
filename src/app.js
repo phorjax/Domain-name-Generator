@@ -7,5 +7,7 @@ import "./assets/img/4geeks.ico";
 
 window.onload = function() {
   //write your code here
-  console.log("Hello Rigo from the console!");
+  var Noun = ["history", "away", "art"];
+  var Adjective = ["agreeable", "adorable", "cloudy"];
+  var Pronoun = ["I", "she", "we"];
 };
